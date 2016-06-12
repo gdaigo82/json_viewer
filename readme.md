@@ -5,7 +5,7 @@
 
 http://qiita.com/GDaigo/items/b69ed5b842a8ec165d4d
 
-また、本システムは、kimihiro_n様の[「The Fastest JSON visualizer」](https://github.com/stars)という、以下でライセンスされた  
+また、本システムは、kimihiro_n様の[「The Fastest JSON visualizer」](https://github.com/pistatium/json_dump)という、以下でライセンスされた  
   Copyright © 2013 pistatium Distributed under the MIT License.  
 コードを利用して 実現しました。kimihiro_n様に深く感謝します。  
 
