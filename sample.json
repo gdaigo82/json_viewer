@@ -1,0 +1,6 @@
+{"member":"TestIdols","number":4,"users":[ 
+    {"id":1001,"name":"Yuriko","age":24},
+    {"id":1002,"name":"Hiroko","age":20}, 
+    {"id":1003,"name":"Alice","age":6,"extra":{"species":"death","locate":"Roppongi"}},
+    {"id":1004,"name":"Tiaki","age":18}
+]}

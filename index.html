@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- 本システムは、kimihiro_n様の「The Fastest JSON visualizer」の以下ライセンス -->
+<!--  Copyright © 2013 pistatium Distributed under the MIT License. -->
+<!-- を利用して 実現しました。kimihiro_n様に深く感謝します。 -->
+<!-- 当然の事ではありますが、本システムの不具合はgdaigo82の責任です。-->
+<!-- が、MITライセンスに従い、gdaigo82もソフトウェアの使用またはその他の扱いによって生じる-->
+<!-- 一切の請求、損害、その他の義務について何らの責任も負わないものとします。 -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>JSON VIEWER</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- From json_dump -->
+    <link href="css/json_viewer.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xs-4 col-sm-2">
+            <img id="botImg" src="img/puronama_normal.png" alt="Puronama-Chan" class="img-responsive"/>
+          </div>
+
+          <div class="col-xs-8 col-sm-8">
+            <div class="popover right show" style="position:relative; max-width:100%;">
+              <div class="arrow"></div>
+              <div class="popover-content">
+                <p id="botText"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-12">
+            <p><!-- mergin(xs) --></p>
+          </div>
+          <div class="col-xs-12 col-sm-12">
+            <p><!-- mergin(xs) --></p>
+          </div>
+
+          <div class="col-xs-12 col-sm-10">
+            <div class="input-group">
+              <input type="text" id="fileNameText" class="form-control" placeholder="select file...">
+              <span class="input-group-btn">
+                <button type="button" class="btn btn-info" id="browse_btn">Browse</button>
+              </span>
+            </div>
+          </div>
+
+        </div>  <!--<div class="row"> -->
+      </div> <!--<div class="container"> -->
+      <input id="inputFile" type="file" style="display:none">
+
+    <div class="container">
+      <h4><!-- mergin -->　</h4>
+      <div id="result">
+          <!-- JSON area -->
+      </div>
+    </div>
+
+    <div class="gotop"><a href="#top">HOME</a></div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/gdaigo_bot.js"></script>
+    <script src="js/json_viewer.js"></script>
+
+    <div class="footer">
+    Copyright(c) 2016 gdaigo82. All Rights Reserved.
+    </div>
+
+    </body>
+</html>

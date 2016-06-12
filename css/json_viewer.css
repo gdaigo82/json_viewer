@@ -1,0 +1,115 @@
+/*
+ * 本システムは、kimihiro_n様の「The Fastest JSON visualizer」の以下ライセンス
+ *  Copyright © 2013 pistatium Distributed under the MIT License.
+ * を利用して 実現しました。kimihiro_n様に深く感謝します。
+ * 当然の事ではありますが、本システムの不具合はgdaigo82の責任です。
+ * が、MITライセンスに従い、gdaigo82もソフトウェアの使用またはその他の扱いによって生じる
+ * 一切の請求、損害、その他の義務について何らの責任も負わないものとします。
+ */
+ 
+body{
+  border-top: 10px solid #4B0082; /* chnage color  */
+  padding:10px;
+}
+
+p{
+    line-height:160%;
+    margin-left:10px;
+}
+
+textarea{
+    border:#ccc 4px solid;
+    padding-left:5px;
+    margin-left:10px;
+    border-radius: 10px;
+    background:#fcfcfc;
+}
+.indent{
+    margin: 0px 0 10px 20px;
+    padding: 5px 10px;
+    border-left:3px solid #CCCEB4;
+}
+.indent > .indent{
+    margin: 0px 0 10px 20px;
+    padding: 5px 10px;
+    border-left:3px solid #B4CEB8;
+}
+.indent > .indent > .indent{
+    margin: 0px 0 10px 20px;
+    padding: 5px 10px;
+    border-left:3px solid #B4C8CE;
+}
+.indent > .indent > .indent > .indent{
+    margin: 0px 0 10px 20px;
+    padding: 5px 10px;
+    border-left:3px solid #B9B4CE;
+}
+.indent > .indent > .indent > .indent > .indent{
+    margin: 0px 0 10px 20px;
+    padding: 5px 10px;
+    border-left:3px solid #CEB4C0;
+}
+.key{
+    font-weight:bold;
+    min-width:100px;
+    display:inline-block;
+    line-height:100%;
+    padding: 5px 0;
+}
+
+.key:hover{
+    background: #ffd;
+}
+
+
+.val{
+    padding-left:10px;
+    display:inline-block;
+    margin-right:10px;
+}
+
+.place{
+    font-size:90%;
+    color:#50A580;
+    line-height:100%;
+    display:inline-block;
+    margin: 0px 0 5px 0px;
+    text-decoration: underline;
+    border:0px dashed;
+    width:350px;
+}
+
+.no_val{
+    color: #8A8A4E !important;
+}
+.array{
+    color: #A55061 !important;
+    padding: 0 10px;
+}
+
+.jpn_txt{
+    color:#888;
+    font-size:90%;
+}
+
+#result{
+    padding:10px;
+}
+
+#description{
+    margin-left:10px;
+    padding:10px;
+    border-left: 5px solid #9CCCCC;
+    width:660px; float:left;
+}
+
+.gotop{
+	position:fixed;
+	right: 0px;
+	bottom: 30px;
+	width:100px;
+}
+#ads{
+width:250px;
+float:left;
+}
